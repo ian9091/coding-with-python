@@ -23,23 +23,18 @@ opcion = input(menu)
 if opcion == "1" :
     conversor_variable("colombianos",3752.46)
     # 3752.46
-    # Prueba exitosa de la opcion 1
+    # Prueba exitosa en la opcion 1
     
 
 elif opcion == "2" :
     conversor_variable("argentinos", 99.01)
     # 99.01
-    # Se implementa la funcion en la opcion 2. 
+    # Prueba exitosa en la opcion 2 
 
 elif opcion == "3" : 
-    pesos_mexicanos = input("Cuantos pesos mexicanos tienes?: ")
-    pesos_mexicanos = float(pesos_mexicanos)
-    valor_dolar = 20.88
-    dolares = pesos_mexicanos / valor_dolar
-    dolares = round(dolares,2)
-    dolares = str(dolares)
-    print("Tienes $" + dolares + " dolares")
+    conversor_variable("mexicanos",20.88)
     #20.88
+    # Prueba exitosa en la opcion 3
 
 else :
     print("E R R O R Favor de ingresar una opción valida, reinicie el programa de nuevo")
