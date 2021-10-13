@@ -9,9 +9,9 @@ Seleccione su moneda de origen:
 
 Elije una opción: """
 
-opcion = int(input(menu))
+opcion = input(menu)
 
-if opcion == 1 :
+if opcion == "1" :
     pesos_colombianos = input("Cuantos pesos colombianos tienes?: ")
     pesos_colombianos = float(pesos_colombianos)
     valor_dolar = 3752.46
@@ -19,7 +19,7 @@ if opcion == 1 :
     dolares = round(dolares,2)
     dolares = str(dolares)
     print("Tienes $" + dolares + " dolares")
-elif opcion == 2 :
+elif opcion == "2" :
     pesos_argentinos = input("Cuantos pesos argentinos tienes?: ")
     pesos_argentinos = float(pesos_argentinos)
     valor_dolar = 99.01
@@ -27,7 +27,7 @@ elif opcion == 2 :
     dolares = round(dolares,2)
     dolares = str(dolares)
     print("Tienes $" + dolares + " dolares")
-elif opcion == 3 : 
+elif opcion == "3" : 
     pesos_mexicanos = input("Cuantos pesos mexicanos tienes?: ")
     pesos_mexicanos = float(pesos_mexicanos)
     valor_dolar = 20.88
@@ -38,5 +38,5 @@ elif opcion == 3 :
 else :
     print("E R R O R Favor de ingresar una opción valida")
 
-    opcion = int(input(menu))
+    opcion = input(menu)
 
