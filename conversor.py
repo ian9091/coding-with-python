@@ -36,7 +36,6 @@ elif opcion == "3" :
     dolares = str(dolares)
     print("Tienes $" + dolares + " dolares")
 else :
-    print("E R R O R Favor de ingresar una opción valida")
+    print("E R R O R Favor de ingresar una opción valida, reinicie el programa de nuevo")
 
-    opcion = input(menu)
 
