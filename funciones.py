@@ -4,18 +4,27 @@
 
 #mensaje_especial()
 
-def conversacion(mensaje):
-    print("Hola")
-    print("como estas")
-    print(mensaje)
-    print("adios")
+#def conversacion(mensaje):
+ #   print("Hola")
+  #  print("como estas")
+   # print(mensaje)
+    #print("adios")
 
-opcion = input("Elige una opción (1, 2, 3): ")
-if opcion == "1":
-    conversacion("Elegiste la opcion 1")
-elif opcion == "2":
-    conversacion("Elegiste la opcion 2")
-elif opcion == "3":
-    conversacion("Elegiste la opcion 3")
-else:
-    print("Elige una opcion correcta")
+#opcion = input("Elige una opción (1, 2, 3): ")
+#if opcion == "1":
+ #   conversacion("Elegiste la opcion 1")
+#elif opcion == "2":
+ #   conversacion("Elegiste la opcion 2")
+#elif opcion == "3":
+ #   conversacion("Elegiste la opcion 3")
+#else:
+ #   print("Elige una opcion correcta")
+
+
+def suma(a,b):
+    print("Se suman dos números")
+    resultado = a + b 
+    return resultado
+
+sumatoria = suma(1,4)
+print (sumatoria)
