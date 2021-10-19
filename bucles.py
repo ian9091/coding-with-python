@@ -1,4 +1,5 @@
-#Reto imprimir todas las potencias de 2 hasta mil
+#Este programa permite calcular las potencias de 2 hasta el 
+#resultado que definamos al inicio del programa. 
 
 def operacion(cont):
     return 2**cont
@@ -8,7 +9,6 @@ def mensaje(cont,oper):
 
 def bucle(contador,limite):
     if operacion(contador) <= limite:
-        #mensaje(contador,operacion)
         mensaje(contador,operacion(contador))
         bucle(contador+1,limite)
     else: 
@@ -17,7 +17,6 @@ def bucle(contador,limite):
 def run():
     limite = int(input('Escriba el limite de la potencia de 2: '))
     contador = 0
-    #operacion = 2**contador
     print('2 elevado a ' + str(contador) + ' es igual a ' + str(2**contador))
     bucle(contador+1,limite)
 
