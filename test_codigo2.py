@@ -1,15 +1,17 @@
 def es_primo(numero):
-    primos = [2,3,5,7,11,13]
-    
-    for i in primos:
-        resultado = numero/i
+    for i in range(numero + 1):
+        if numero == i:
+            continue
+        if 1 == i:
+            continue
+        if 0 == i:
+            continue
         if numero % i == 0:
             return False
             break
-        if resultado <= numero:
+        if numero % i != 0:
             return True
-            break
-        
+
 
 def run():
     numero = int(input('Escribe un número: '))
@@ -18,5 +20,5 @@ def run():
     else: 
         print('No es primo')
 
-if __name__ == '__main__' :
+if __name__ == '__main__':
     run()

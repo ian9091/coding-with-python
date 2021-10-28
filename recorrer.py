@@ -1,7 +1,8 @@
-def run():
-    nombre = input('Escribe tu nombre: ')
-    for caracter in nombre:
-        print(caracter.upper())
-
-if __name__ == '__main__':
-    run()
+for i in range(9+1):
+    if i == 0:
+        continue
+    elif i == 1:
+        continue
+    elif i == 9:
+        continue
+    print(9/i)
